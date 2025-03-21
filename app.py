@@ -19,7 +19,7 @@ if 'change_history' not in st.session_state:
     st.session_state.change_history = {}
 
 # Настройки
-EXCEL_FILE_PATH = EXCEL_FILE_PATH 
+EXCEL_FILE_PATH = EXCEL_FILE_PATH
 REFRESH_INTERVAL = 10  # Интервал обновления страницы в секундах
 TABLE_COLUMNS_PER_ROW = 4  # Количество таблиц в строке
 CHART_WIDTH = 600
